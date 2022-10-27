@@ -10,14 +10,14 @@ body {
   position: relative;
   width: 320px;
   height: 4910px;
-  background: #FFFFFF;
+  background: #fff;
 }
 
 .geomtry2 {
   position: absolute;
   width: 320px;
   height: 160px;
-  left: 0px;
+  left: 0;
   top: 472px;
 }
 
@@ -35,12 +35,12 @@ body {
   height: 100px;
   left: 16px;
   top: 104px;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
   line-height: 100%;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 .paragraph {
@@ -49,13 +49,13 @@ body {
   height: 126px;
   left: 16px;
   top: 224px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 .bttn {
@@ -65,14 +65,14 @@ body {
   height: 50px;
   font-size: 16px;
   font-weight: 500;
-  color: #FFFFFF;
+  color: #fff;
   line-height: 24px;
   text-align: center;
   font-style: normal;
   position: absolute;
   box-sizing: border-box;
-  font-family: 'Poppins';
-  background-color: #1A2236;
+  font-family: 'Poppins', serif;
+  background-color: #1a2236;
 }
 
 .spacer {
