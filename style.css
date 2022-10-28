@@ -79,14 +79,14 @@ body {
   cursor: pointer;
   color: #1a2236;
   background-color: #fff;
-  border: 1px solid #1A2236
+  border: 1px solid #1a2236;
 }
 
 .bttn:active {
   cursor: pointer;
   color: #1a2236;
   background-color: #fff;
-  border: 2px solid #1A2236
+  border: 2px solid #1a2236;
 }
 
 .spacer {
