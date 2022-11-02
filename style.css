@@ -58,6 +58,20 @@ body {
   letter-spacing: -0.01em;
   color: #1a2236;
 }
+.abtcontent {
+  position: absolute;
+  width: 300px;
+  height: 126px;
+  left: 16px;
+  top: 2932px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
 
 .bttn {
   width: 288px;
@@ -112,6 +126,20 @@ body {
   font-style: normal;
   font-family: 'Playfair Display', serif;
 }
+.abHeader {
+  top: 2862px;
+  left: 16px;
+  width: 181px;
+  height: 50px;
+  font-size: 50px;
+  color: #1a2236;
+  font-weight: 400;
+  line-height: 100%;
+  position: absolute;
+  font-style: normal;
+  font-family: 'Playfair Display', serif;
+}
+
 
 .pList {
   left: 0;
@@ -166,4 +194,89 @@ h3 {
   background-repeat: no-repeat;
   background-image: url('./images/image_geometry_2.png');
   background-size: cover;
+}
+
+.bttnp {
+  width: 208px;
+  height: 50px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  font-style: normal;
+  box-sizing: border-box;
+  inset: 390px auto 0 45px;
+  background-color: #1a2236;
+  font-family: 'Poppins', serif;
+}
+
+.bttnp:hover {
+  cursor: pointer;
+  color: #1a2236;
+  background-color: #fff;
+  border: 1px solid #1a2236;
+}
+
+.bttnp:active {
+  cursor: pointer;
+  color: #1a2236;
+  background-color: #fff;
+  border: 2px solid #1a2236;
+}
+
+.bttncv {
+  width: 208px;
+  height: 50px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  font-style: normal;
+  box-sizing: border-box;
+  inset: 390px auto 0 45px;
+  background-color: #1a2236;
+  font-family: 'Poppins', serif;
+}
+
+.bttncv:hover {
+  cursor: pointer;
+  color: #1a2236;
+  background-color: #fff;
+  border: 1px solid #1a2236;
+}
+
+.bttncv:active {
+  cursor: pointer;
+  color: #1a2236;
+  background-color: #fff;
+  border: 2px solid #1a2236;
+}
+
+.Lname {
+position: absolute;
+width: 289px;
+height: 289px;
+left: 16px;
+top: 3180px;
+background: #1C528A;
+}
+
+.Fblock{
+position: absolute;
+width: 289px;
+height: 289px;
+left: 16px;
+top: 3485px;
+background: #E2505C;
+}
+
+.skillblock {
+position: absolute;
+width: 289px;
+height: 289px;
+left: 10px;
+top: 3790px;
+background: #FEBF52;
 }
