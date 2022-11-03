@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
 
 body {
   width: 400px;
@@ -226,6 +227,7 @@ h3 {
 }
 
 .bttncv {
+  background-repeat:no-repeat;
   width: 208px;
   height: 50px;
   color: #fff;
@@ -254,29 +256,68 @@ h3 {
   border: 2px solid #1a2236;
 }
 
-.Lname {
+.Langblock {
 position: absolute;
 width: 289px;
 height: 289px;
 left: 16px;
 top: 3180px;
-background: #1C528A;
+background-color: #1C528A;
+padding-left: 72px;
+padding-top: 26px;
+color: white;
+font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 30px;
+
+
 }
 
-.Fblock{
-position: absolute;
+.frmblock {
+  position: absolute;
 width: 289px;
 height: 289px;
 left: 16px;
-top: 3485px;
-background: #E2505C;
-}
+top: 3469px;
+background-color: #E2505C;
+padding-left: 72px;
+padding-top: 26px;
+color: white;
+font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  }
+
+
 
 .skillblock {
-position: absolute;
-width: 289px;
-height: 289px;
-left: 10px;
-top: 3790px;
-background: #FEBF52;
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 16px;
+  top: 3790px;
+  background-color:#FEBF52;
+  padding-left: 72px;
+  padding-top: 26px;
+  color: white;
+  font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+
 }
+.blcimages{
+position: absolute;
+width: 102px;
+height: 102px;
+left: 203px;
+top: 3367px;
+background: #547DA7;
+}
+
+.
