@@ -393,6 +393,19 @@ line-height: 15px;
 }
 
 .submit{
+ position: absolute;
+ width: 288px;
+ height: 44px;
+ left: 16px;
+ top: 4652px;
+ background: #1A2236;
+ font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 24px;
+ text-align: center;
+ color: #FFFFFF;
 
 
 
