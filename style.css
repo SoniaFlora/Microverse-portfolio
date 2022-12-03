@@ -297,7 +297,7 @@ h3 {
   width: 289px;
   height: 289px;
   left: 16px;
-  top: 3469px;
+  top: 3485px;
   background-color: #e2505c;
   background-image: url('./images/ic_framework.png');
   background-repeat: no-repeat;
@@ -330,6 +330,10 @@ h3 {
   font-weight: 800;
   font-size: 18px;
   line-height: 30px;
+}
+
+.skillblock ul {
+  padding-top: 40px;
 }
 
 .blcimages {
@@ -432,4 +436,13 @@ h3 {
   line-height: 24px;
   text-align: center;
   color: #fff;
+}
+
+.img3 {
+  background-image: url('./images/image_geometry_3.svg');
+  width: 200px;
+  height: 100px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 4100px;
 }
