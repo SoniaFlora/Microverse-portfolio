@@ -4,10 +4,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  }
+}
 
 
 body {
+  display: block;
   width: 400px;
   margin: auto;
   height: 4910px;
@@ -59,6 +60,7 @@ body {
   letter-spacing: -0.01em;
   color: #1a2236;
 }
+
 .abtcontent {
   position: absolute;
   width: 300px;
@@ -127,6 +129,7 @@ body {
   font-style: normal;
   font-family: 'Playfair Display', serif;
 }
+
 .abHeader {
   top: 2862px;
   left: 16px;
@@ -143,7 +146,7 @@ body {
 
 
 .pList {
-  left: 0;
+  left: 20px;
   top: 754px;
   width: 320px;
   display: grid;
@@ -163,6 +166,7 @@ body {
 .tags {
   display: flex;
   gap: 0.2rem;
+  margin-left: 10px;
 }
 
 .tag {
@@ -179,6 +183,7 @@ body {
 h3 {
   width: 264px;
   height: 16px;
+  padding-left: 10px;
   font-family: 'Poppins', serif;
   font-style: normal;
   font-weight: 300;
@@ -200,6 +205,7 @@ h3 {
 .bttnp {
   width: 208px;
   height: 50px;
+  margin-left: 10px;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -210,6 +216,7 @@ h3 {
   inset: 390px auto 0 45px;
   background-color: #1a2236;
   font-family: 'Poppins', serif;
+  border: 1px solid #fff;
 }
 
 .bttnp:hover {
@@ -227,7 +234,7 @@ h3 {
 }
 
 .bttncv {
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   width: 208px;
   height: 50px;
   color: #fff;
@@ -257,46 +264,15 @@ h3 {
 }
 
 .Langblock {
- position: absolute;
- width: 289px;
- height: 289px;
- left: 16px;
- top: 3180px;
- background-color: #1C528A;
- padding-left: 72px;
- padding-top: 26px;
- color: white;
- font-family: 'Poppins';
- font-style: normal;
- font-weight: 800;
- font-size: 18px;
- line-height: 30px;
-}
-
-.frmblock {
-position: absolute;
-width: 289px;
-height: 289px;
-left: 16px;
-top: 3469px;
-background-color: #E2505C;
-padding-left: 72px;
-padding-top: 26px;
-color: white;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 22px;
-}
-
-.skillblock {
   position: absolute;
   width: 289px;
   height: 289px;
   left: 16px;
-  top: 3790px;
-  background-color:#FEBF52;
+  top: 3180px;
+  background-color: #1C528A;
+  background-image: url('./images/ic_languages_mob.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
   padding-left: 72px;
   padding-top: 26px;
   color: white;
@@ -307,106 +283,145 @@ line-height: 22px;
   line-height: 30px;
 }
 
-.blcimages{
+.frmblock {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 16px;
+  top: 3469px;
+  background-color: #E2505C;
+  background-image: url('./images/ic_framework.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-left: 72px;
+  padding-top: 26px;
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.skillblock {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 16px;
+  top: 3790px;
+  background-color: #FEBF52;
+  background-image: url('./images/ic_skills.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-left: 72px;
+  padding-top: 26px;
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.blcimages {
   position: absolute;
   width: 102px;
   height: 102px;
   left: 203px;
   top: 3367px;
   background: #547DA7;
-  }
-  
-.abget{
- position: absolute;
- width: 249px;
- height: 100px;
- left: 16px;
- top: 4235px;
- font-family: 'Playfair Display', serif;
- font-style: normal;
- font-weight: 400;
- font-size: 50px;
- line-height: 100%;
- color: #1A2236;
-}  
-
-.geomtry3{
- position: absolute;
- width: 111px;
- height: 74.02px;
- left: 0px;
- top: 4129px;
 }
 
-.paragraph1{
-position: absolute;
-width: 288px;
-height: 63px;
-left: 16px;
-top: 4305px;
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 1.1rem;
-line-height: 21px;
-letter-spacing: -0.01em;
-color: #1a2236;
-}
-.text{
-position: absolute;
-width: 55px;
-height: 15px;
-left: 32px;
-top: 4404px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 15px;
-}
-.email{
- position: absolute;
- width: 54px;
- height: 15px;
- left: 32px;
- top: 4464px;
- font-family: 'Poppins';
- font-style: normal;
- font-weight: 400;
- font-size: 10px;
- line-height: 15px;
- color: #7D7C84;
+.abget {
+  position: absolute;
+  width: 249px;
+  height: 100px;
+  left: 16px;
+  top: 4235px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1A2236;
 }
 
-.message{
- position: absolute;
- width: 182px;
- height: 21px;
- left: 32px;
- top: 4535px;
- font-family: 'Poppins';
- font-style: normal;
- font-weight: 400;
- font-size: 14px;
- line-height: 21px;
- color: #7D7C84;
+.geomtry3 {
+  position: absolute;
+  width: 111px;
+  height: 74.02px;
+  left: 0px;
+  top: 4129px;
 }
 
-.submit{
- position: absolute;
- width: 288px;
- height: 44px;
- left: 16px;
- top: 4652px;
- background: #1A2236;
- font-family: 'Poppins';
- font-style: normal;
- font-weight: 500;
- font-size: 16px;
- line-height: 24px;
- text-align: center;
- color: #FFFFFF;
+.paragraph1 {
+  position: absolute;
+  width: 288px;
+  height: 63px;
+  left: 16px;
+  top: 4305px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
 
+.text {
+  position: absolute;
+  width: 288px;
+  height: 52px;
+  left: 16px;
+  top: 4404px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+}
 
+.email {
+  position: absolute;
+  width: 288px;
+  height: 52px;
+  left: 16px;
+  top: 4460px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7D7C84;
+}
 
+.message {
+  position: absolute;
+  width: 288px;
+  height: 112px;
+  left: 16px;
+  top: 4520px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7D7C84;
+}
+
+.submit {
+  position: absolute;
+  width: 288px;
+  height: 44px;
+  left: 16px;
+  top: 4652px;
+  background: #1A2236;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
 }
