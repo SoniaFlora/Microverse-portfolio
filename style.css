@@ -233,9 +233,10 @@ h3 {
 
 .bttncv {
   background-repeat: no-repeat;
-  width: 208px;
+  width: 288px;
   height: 50px;
   color: #fff;
+  left: 16px;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -261,7 +262,7 @@ h3 {
   border: 2px solid #1a2236;
 }
 
-.Langblock {
+.langblock {
   position: absolute;
   width: 289px;
   height: 289px;
@@ -281,6 +282,16 @@ h3 {
   line-height: 30px;
 }
 
+.block h3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  padding-left: 0;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
 .frmblock {
   position: absolute;
   width: 289px;
@@ -298,7 +309,7 @@ h3 {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 30px;
 }
 
 .skillblock {
